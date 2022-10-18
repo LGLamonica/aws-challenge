@@ -3,7 +3,7 @@ name: push image
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 
 jobs:
   docker:
