@@ -21,6 +21,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          file: /home/llamonica/Desktop/devops/curso/reto9-bonus/myapp/Dockerfile
+          file: ./myapp/Dockerfile
           push: true
           tags: llamonica/aws-challenge:latest
